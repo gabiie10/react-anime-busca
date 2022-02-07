@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  
 }
 
 
@@ -19,7 +18,7 @@
 .card{
   color:white;
   border-radius: 3px;
-  background:rgb(242, 37, 37);
+  background:rgb(204, 70, 70);
 }
 .card:hover{
   background:rgb(37, 240, 37);
