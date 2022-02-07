@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 
@@ -8,7 +9,20 @@
   grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
   list-style:none;
   grid-gap:1.5rem;
+  background: rgb(17, 14, 14);
+  
 }
 .animes-list img{
   max-width:100%;
+  border-radius: 3px;
+}
+.card{
+  color:white;
+  border-radius: 3px;
+  background:rgb(242, 37, 37);
+}
+.card:hover{
+  background:rgb(37, 240, 37);
+  width: 250px;
+  
 }

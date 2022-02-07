@@ -28,7 +28,7 @@ function App() {
         {info.data && (
           <ul className="animes-list">
             {info.data.map((anime)=>(// O map serve pra listar todos os elementos da api pegando o array onde os daados estao(no caso info.data).Sempre q eu faço um map eu tenho que pro uma key
-              <li key={anime.id}> 
+              <li key={anime.id} className="card"> 
                   <img src={anime.attributes.posterImage.small} alt={anime.attributes.canonicalTitle}/>
                   {anime.attributes.canonicalTitle}
               </li>
